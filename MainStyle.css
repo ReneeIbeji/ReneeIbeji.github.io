@@ -4,3 +4,7 @@
     align-items:center;
     justify-content: center;
  }
+
+ .titlebanner h1{
+   font-size:large;
+ }
