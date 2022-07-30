@@ -1,3 +1,7 @@
+ 
+ .body{
+   margin:0px;
+ }
  .titleBanner{
     display: flex;
     flex-direction: column;
@@ -5,6 +9,19 @@
     justify-content: center;
  }
 
- .titlebanner h1{
-   font-size:large;
+ .titleBanner h1{
+   font-size:400%;
+ }
+ .titleBanner p{
+   font-size:150%;
+ }
+
+
+
+ /* Colours */
+
+ /* Background */
+
+ .is-primary{
+   background-color: rgb(109, 209, 209);
  }
