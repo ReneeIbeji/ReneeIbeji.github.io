@@ -1,13 +1,18 @@
  
 body{
-   width: 80%;
-   margin: auto;
-   width: 50%;
+   margin:0 10vw;
+   width: auto;
    padding: 10px;
 }
 
 #titleBanner{
    width:100%;
+}
+#titleEmail{
+   font-size: 3vw;
+
+   display: flex;
+   justify-content: center;
 }
 
 #nameTitle{
@@ -19,18 +24,21 @@ body{
 #links{
    display: flex;
    justify-content: center;
+   margin:5%;
 }
-
-#mainContent{
-   width:80%;
-
-}
-
 #icon img{
    width:3vw;
    height: auto;
    margin:0 0.2vw;
 }
+
+#mainContent{
+
+   width:80%;
+
+
+}
+
 
 
 .sectionTitle{
@@ -38,7 +46,6 @@ body{
 }
 
 .innerSection{
-
    background-color: lightgrey;
 }
 .innerSection #textSection #sectionTitle{
@@ -47,4 +54,13 @@ body{
 
 .innerSection #textSection{
    font-size:15px;
+}
+.innerSection #imgSection img{
+   width:auto;
+   height:100%;
+
+}
+.innerSection #imgSection{
+   display: flex;
+   justify-content: center;
 }
