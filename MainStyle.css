@@ -39,7 +39,9 @@ body{
 
 }
 
-
+a {
+   text-decoration: none;
+ }
 
 .sectionTitle{
    font-size:40px;
